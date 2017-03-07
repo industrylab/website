@@ -92,60 +92,6 @@ Author: Anna Cataldo
   background-color:rgba(255,255,255,.7);
 }
 
-/*-----------------*/
-/***** Moses *****/
-/*-----------------*/
-
-
-figure.effect-moses img {
-  opacity: 0.85;
-  -webkit-transition: opacity 0.35s;
-  transition: opacity 0.35s;
-}
-
-figure.effect-moses h2,
-figure.effect-moses p {
-  padding: 20px;
-  margin: 5%;
-}
-
-figure.effect-moses h2 {
-  padding: 20px;
-  width: 70%;
-  text-align: left;
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-  -webkit-transform: translate3d(10px,10px,0);
-  transform: translate3d(10px,10px,0);
-  background-color: rgba(0,0,255,.6);
-}
-
-figure.effect-moses p {
-  padding: 20px;
-  text-align: right;
-  opacity: 0;
-  color: black;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(-50%,-50%,0);
-  transform: translate3d(-50%,-50%,0);
-}
-
-figure.effect-moses:hover h2 {
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
-
-figure.effect-moses:hover p {
-  opacity: 1;
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
-
-figure.effect-moses:hover img {
-  opacity: 0.6;
-}
-
 
 
 /******************************************
@@ -515,6 +461,44 @@ svg {
   }
 }
 
+.aboutCarousel {
+  width:45%;
+  float:right;
+  display:inline;
+  height:85vh !important;
+  overflow:hidden;
+  margin-top:8%;
+}
+
+.slick-prev, .slick-next, .slick-dots {
+  display:none !important;
+}
+
+#aboutImage {
+  width:43%;
+  overflow:hidden;
+  height: 75vh;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#aboutImage img {
+  width:170%;
+
+}
+
+#game{
+  width:100% !important;
+  filter: grayscale();
+  transition: all .3s ease;
+}
+
+#game:hover {
+  filter: none;
+  transform:scale(1.08);
+  transition: all .3s ease;
+}
 
 
 /******************************************
@@ -635,7 +619,7 @@ transition: all .05s ease;
   padding-top:0;
 }
 
-  #mobileCoworkingSectionEntry {
+  #mobileCoworkingSectionEntry, #mobileCoworkingSectionEntryTwo {
     display:none;
   }
 
@@ -751,7 +735,7 @@ transition: all .05s ease;
 /*  background-image:url("../images/rin1.jpg");
   background-size:cover;
   background-position:center center;*/
-  height:40vh;
+  height:35vh;
   width:90%;
   margin:0 auto;
   clear:both;
@@ -1024,6 +1008,9 @@ footer h4{
 
 @media(max-width:2400px) and (min-width:1901px) {
 
+  #mobileCoworkingSectionEntryTwo {
+    display:none;
+  }
    .coworkingAbout #aboutSectionEntry p {
     font-size:3.5em;
   }
@@ -1038,6 +1025,10 @@ footer h4{
   }
 }
 @media(max-width:1900px) and (min-width:1600px) {
+
+    #mobileCoworkingSectionEntryTwo {
+    display:none;
+  }
     .coworkingAbout #aboutSectionEntry p {
     font-size:3.3em;
   }
@@ -1054,6 +1045,10 @@ footer h4{
 }
 
 @media(max-width:1599px) and (min-width:1450px) {
+
+    #mobileCoworkingSectionEntryTwo {
+    display:none;
+  }
     .coworkingAbout #aboutSectionEntry p {
     font-size:3.2em;
   }
@@ -1066,6 +1061,10 @@ footer h4{
 }
 
 @media(max-width:1449px) and (min-width:1300px) {
+
+    #mobileCoworkingSectionEntryTwo {
+    display:none;
+  }
     .coworkingAbout #aboutSectionEntry p {
     font-size:2.8em;
   }
@@ -1078,12 +1077,20 @@ footer h4{
 }
 
 @media(max-width:1299px) and (min-width:1151px) {
+
+    #mobileCoworkingSectionEntryTwo {
+    display:none;
+  }
     .coworkingAbout #aboutSectionEntry p {
     font-size:2.4em;
   }
 }
 
 @media(max-width: 1150px) and (min-width: 1025px) {
+
+    #mobileCoworkingSectionEntryTwo {
+    display:none;
+  }
   #coworkingBody .coworkingAbout {
   height:90vh;
   margin: 20% auto;
@@ -1097,7 +1104,11 @@ footer h4{
   }
 }
 
-@media(max-width: 1024px) and (min-width: 940px)  {
+@media(max-width: 1024px) and (min-width: 950px)  {
+
+    #mobileCoworkingSectionEntryTwo {
+    display:none;
+  }
   #bodyHome {
     background-size:120%;
   }
@@ -1135,7 +1146,11 @@ footer h4{
 
 }
 
-@media(max-width: 939px) and (min-width: 810px) {
+@media(max-width: 949px) and (min-width: 810px) {
+
+    #mobileCoworkingSectionEntryTwo {
+    display:none;
+  }
   #bodyHome {
     background-size:140%;
   }
@@ -1145,9 +1160,13 @@ footer h4{
   }
 
   .coworkingAbout #aboutSectionEntry p {
-    font-size: 2.1em;
-  }
+    font-size: 2.9em;
+  width:95%;
+}
 
+#aboutImage {
+  display:none;
+}
 
   #coworkingBody .coworkingAbout {
   height:100vh;
@@ -1181,6 +1200,10 @@ footer h4{
 }
 
 @media(max-width: 809px) and (min-width: 705px) {
+
+    #mobileCoworkingSectionEntryTwo {
+    display:none;
+  }
   #bodyHome {
     background-size:160%;
   }
@@ -1189,8 +1212,13 @@ svg {
     padding-top: 15%;
   }
  .coworkingAbout #aboutSectionEntry p {
-  font-size:2em;
- }  
+  font-size:2.6em;
+  width:95%;
+}
+
+#aboutImage {
+  display:none;
+}
 
   #coworkingBody .coworkingAbout {
   height:100vh;
@@ -1243,6 +1271,14 @@ svg {
 
 @media(max-width: 704px) and (min-width: 625px) {
 
+  .layer {
+    height:650vh;
+  }
+
+    #mobileCoworkingSectionEntryTwo {
+    display:none;
+  }
+
   #bodyHome {
     background-size:160%;
   }
@@ -1252,8 +1288,13 @@ svg {
   }
 
   .coworkingAbout #aboutSectionEntry p {
-  font-size:1.9em;
- }  
+  font-size:2.5em;
+  width:95%;
+}
+
+#aboutImage {
+  display:none;
+}
 
   #coworkingBody .coworkingAbout {
   height:100vh;
@@ -1311,6 +1352,14 @@ svg {
 
 @media(max-width: 624px) and (min-width: 557px) {
 
+    .layer {
+    height:630vh;
+  }
+
+    #mobileCoworkingSectionEntryTwo {
+    display:none;
+  }
+
   #bodyHome {
     background-size:160%;
   }
@@ -1338,6 +1387,9 @@ svg {
     font-size:1.4em;
   }
 
+#aboutImage {
+  display:none;
+}
 #contactInfo h2{
   font-size: 1.5em;
  }
@@ -1381,6 +1433,10 @@ svg {
 
 
 @media(max-width: 556px) and (min-width: 480px) {
+
+    #mobileCoworkingSectionEntryTwo {
+    display:none;
+  }
 .horizontalNav li {
   visibility:hidden;
 }
@@ -1407,7 +1463,7 @@ svg {
   }
 
   .layer {
-    height:840vh;
+    height:640vh;
   }
 
   .coworkingAbout #aboutSectionEntry p {
@@ -1416,6 +1472,10 @@ svg {
   padding-top: 10%;
   padding-bottom:10%;
  }  
+
+ #aboutImage {
+  display:none;
+}
 
   #coworkingBody .coworkingAbout p {
   width: 90%;
@@ -1479,6 +1539,10 @@ svg {
 }
 @media(max-width: 479px) and (min-width: 450px) {
 
+    #mobileCoworkingSectionEntryTwo {
+    display:none;
+  }
+
 .horizontalNav li {
   visibility:hidden;
 }
@@ -1488,7 +1552,7 @@ svg {
   }
 
   .layer {
-    height:700vh;
+    height:640vh;
   }
 
   svg {
@@ -1502,6 +1566,10 @@ svg {
   padding-top: 10%;
   padding-bottom:10%;
  }  
+
+ #aboutImage {
+  display:none;
+}
 
 #coworkingBody  .coworkingAbout {
   background-position: center center;
@@ -1597,7 +1665,7 @@ svg {
     display:none;
   }
 
-  #mobileCoworkingSectionEntry {
+  #mobileCoworkingSectionEntry, #mobileCoworkingSectionEntryTwo {
     display:block;
   }
 
@@ -1623,7 +1691,9 @@ svg {
   line-height:2em;
   padding-top:130%;
 }
-
+#aboutImage {
+  display:none;
+}
 #coworkingBody .coworkingAbout p span{
   background-color: rgba(255,255,255,.9);
   padding:1.55%;

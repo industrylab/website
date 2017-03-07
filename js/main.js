@@ -12,6 +12,22 @@ $(document).ready(function(){
     $("svg").fadeIn(1000);
   }, 2500);
 
+// ** HOME IMG CAROUSEL ** //
+
+$('.aboutCarousel').slick({
+  slidesToShow: 1,
+  autoplay: true,
+  autoplaySpeed: 2500,
+  fade:true,
+  // vertical:true,
+  // centerMode:true,
+  arrows:true,
+  infinite:true
+});
+
+
+// ** HOME IMG LIGHTBOX ** //
+
 
 
 //** NAV **//
