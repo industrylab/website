@@ -116,7 +116,7 @@ $("#navAbout, #mobileNavAbout").on("click", function () {
 
 
  $(window).scroll(function(){                          
-            if ($(this).scrollTop() > 600) {
+            if ($(this).scrollTop() > 500) {
                 $('.horizontalNav').fadeIn(500);
             } else {
                 $('.horizontalNav').fadeOut(500);

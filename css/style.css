@@ -488,13 +488,20 @@ svg {
 
 }
 
-#game{
+#game, #electroninks{
   width:100% !important;
   filter: grayscale();
   transition: all .3s ease;
 }
 
-#game:hover {
+#electroninks {
+  width:175% !important;
+  filter:none;
+  left:10%;
+  margin-left:-17%;
+}
+
+#electroninks:hover, #game:hover {
   filter: none;
   transform:scale(1.08);
   transition: all .3s ease;
@@ -618,6 +625,17 @@ transition: all .05s ease;
   line-height:1.8em;
   padding-top:0;
 }
+
+#app {
+  color:white;
+  background-color:rgba(0,0,255,.6);
+  padding: .5%;
+}
+
+#app:hover {
+  font-style:italic;
+}
+
 
   #mobileCoworkingSectionEntry, #mobileCoworkingSectionEntryTwo {
     display:none;
@@ -1643,7 +1661,7 @@ svg {
 }
 
 
-@media(max-width:449px) and (min-width:0px) {
+@media(max-width:449px) and (min-width:370px) {
 .horizontalNav li {
   visibility:hidden;
 }
@@ -1657,8 +1675,8 @@ svg {
   }
 
   svg {
-    transform:scale(1.5);
-    padding-top: 30%;
+    transform:scale(1.7);
+    padding-top: 27%;
   }
 
   #coworkingSectionEntry {
@@ -1732,7 +1750,7 @@ svg {
 
  .eventListing {
   width:90%;
-  height:300px;
+  height:45vh;
  }
 
 .lastEvent {
@@ -1769,8 +1787,141 @@ svg {
 
 }
 
+}
+
+@media(max-width:369px) and (min-width:0px) {
+.horizontalNav li {
+  visibility:hidden;
+}
+
+  #bodyHome {
+    background-size:300%;
+  }
+
+  .layer {
+    height:855vh;
+  }
+
+  svg {
+    transform:scale(1.8);
+    padding-top: 30%;
+  }
+
+  .coworkingAbout {
+    height:100vh;
+  }
+
+  #coworkingSectionEntry {
+    display:none;
+  }
+
+  #mobileCoworkingSectionEntry, #mobileCoworkingSectionEntryTwo {
+    display:block;
+  }
 
 
+  .coworkingAbout #aboutSectionEntry p {
+  font-size:1.8em;
+  width:100%;
+  padding-top: 10%;
+  padding-bottom:10%;
+
+ }  
+
+
+#coworkingBody  .coworkingAbout {
+  background-position: center center;
+  height:100vh;
+  margin:16% auto;
+ }
+
+#coworkingBody .coworkingAbout p {
+  width: 95%;
+  font-size:1.5em;
+  line-height:2em;
+  padding-top:110%;
+}
+#aboutImage {
+  display:none;
+}
+#coworkingBody .coworkingAbout p span{
+  background-color: rgba(255,255,255,.9);
+  padding:2%;
+  border-bottom:2px dashed blue;
+}
+
+ #coworkingBody .coworkingAbout #mobileCoworkingSectionEntryTwo{
+    padding:15% 0;
+    border-bottom:5px dashed blue;
+  }
+
+#eventsBody {
+  margin-top:140%;
+}
+
+#contactInfo h2{
+  font-size: 1.5em;
+ }
+
+
+.eventsFlyerMobile {
+  display:block;
+  margin-bottom:5%;
+  height:auto;
+}
+ #containerEvents h2 {
+  font-size:.7em;
+ }
+
+ #containerEvents h3 {
+  font-size: 1.5em;
+ }
+
+ .eventListing p {
+  font-size: 1.5em;
+ }
+
+ .eventListing {
+  width:90%;
+  height:60vh;
+ }
+
+.lastEvent {
+  border-bottom:none;
+ }
+
+  .logoHome {
+    width:60%;
+    margin-top:-28%;
+    margin-left:-25%;
+  }
+
+  .grid {
+    width: 90% !important;
+  }
+
+  #form, #contactInfo {
+    width: 90%;
+    padding-top:5%;
+    margin-top:5%;
+  }
+
+  #contactInfo {
+    text-align:right;
+    padding-right:5%;
+  }
+
+  footer {
+    padding: 0 4%;
+  }
+.hamburger-menu {
+  display: inline-block;
+  float:right;
 
 }
+
+}
+
+
+
 
