@@ -805,18 +805,15 @@ transition: all .05s ease;
   margin-top:0;
 }
 
-#eventArtist {
+.eventLink {
   color:blue;
   border-bottom: 2px solid blue;
 }
 
-#eventArtist:hover{
+.eventLink:hover{
  font-style: italic;
 }
 
-#eventArtist:hover{
- font-style: italic;
-}
 
 /******************************************
 /* CONTACT                
