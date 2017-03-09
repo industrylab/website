@@ -226,7 +226,12 @@ $("#nameColumn a").on("click", function (){
         var submitURL = (baseURL + q1ID + "=" + name + "&" + q2ID + "=" + email + "&" + q3ID + "=" + about + submitRef);
         console.log(submitURL);
         $(this)[0].action=submitURL;
+
+        $('#name, #email, #message').val("");
+        $('#submit').val("Thank You!");
     });
+
+
 
 });
 
