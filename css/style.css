@@ -514,11 +514,17 @@ transition: all .05s ease;
 #app {
   color:white;
   background-color:rgba(0,0,255,.6);
-  padding: .5%;
+  padding: 2%;
+  font-size:2em;
+  letter-spacing:.2em;
+  transition: all .3s ease;
 }
 
 #app:hover {
-  font-style:italic;
+  background-color:rgb(81,65,255);
+  transition:all .3s ease;
+  border-radius:50%;
+  padding:8.5% 2%;
 }
 
 
@@ -542,7 +548,14 @@ transition: all .05s ease;
   background:rgba(0,0,255,.6);
   color:white;
   padding:1.5%;
+  transition:all .3s ease;
 }
+
+/*#homeContactLink:hover {
+  transition:all .3s ease;
+  border-radius:50%;
+  padding:14% 2%;
+}*/
 
 #space {
   width:56%;
@@ -955,6 +968,11 @@ footer h4{
     width:95%;
   }
 
+  #app:hover {
+    padding:10% 2%
+  }
+
+
 }
 
 @media(max-width: 1029px) and (min-width: 990px)  {
@@ -992,6 +1010,11 @@ footer h4{
   .coworkingAbout p{
     width:95%;
     padding-top:45%;
+  }
+
+
+  #app:hover {
+    padding: 10.5% 2%;
   }
 
   .eventListing, .summary {
@@ -1045,6 +1068,11 @@ footer h4{
     padding-top:45%;
   }
 
+   #app:hover {
+    padding: 11% 2%;
+  }
+
+
   .eventListing, .summary {
     height:450px;
   }
@@ -1087,8 +1115,12 @@ footer h4{
   }
 
  #coworkingBody p{
-    padding-top:50%;
+    padding-top:40%;
     width:95%;
+  }
+
+    #app:hover {
+    padding: 11% 2%;
   }
 
   .logoHome {
@@ -1141,6 +1173,10 @@ svg {
  #coworkingBody p{
     padding-top:40%;
     width:95%;
+  }
+
+    #app:hover {
+    padding: 12% 2%;
   }
 
  .coworkingAbout p {
@@ -1218,6 +1254,10 @@ svg {
     font-size:1.4em;
   }
 
+      #app:hover {
+    padding: 13% 2%;
+  }
+
 #contactInfo h2{
   font-size: 1.5em;
  }
@@ -1291,6 +1331,10 @@ svg {
     padding-top:56%;
     width:95%;
     font-size:1.4em;
+  }
+
+      #app:hover {
+    padding: 13% 2%;
   }
 
 #aboutImage {
@@ -1386,6 +1430,10 @@ svg {
   width: 90%;
 }
 
+      #app:hover {
+    padding: 16% 2%;
+  }
+
 #coworkingBody .coworkingAbout p span{
   background-color: rgba(255,255,255,.8);
 }
@@ -1477,6 +1525,10 @@ svg {
   padding-bottom:10%;
 
  }  
+
+       #app:hover {
+    padding: 18% 2%;
+  }
 
 
 #coworkingBody  .coworkingAbout {
@@ -1605,6 +1657,10 @@ svg {
  }  
 
 
+       #app:hover {
+    padding: 23% 2%;
+  }
+
 #coworkingBody  .coworkingAbout {
   background-position: center center;
   height:100vh;
@@ -1726,26 +1782,35 @@ svg {
   }
 
 
+
   .coworkingAbout #aboutSectionEntry p {
   font-size:1.8em;
   width:100%;
   padding-top: 10%;
   padding-bottom:10%;
+  height:85vh;
+ 
 
  }  
+
+  #app:hover {
+    padding: 25% 2%;
+  }
 
 
 #coworkingBody  .coworkingAbout {
   background-position: center center;
   height:100vh;
   margin:16% auto;
+
  }
 
 #coworkingBody .coworkingAbout p {
-  width: 95%;
+  width: 97%;
   font-size:1.5em;
   line-height:2em;
-  padding-top:110%;
+  padding-top:85%;
+
 }
 #aboutImage {
   display:none;
@@ -1861,9 +1926,14 @@ svg {
   width:100%;
   padding-top: 10%;
   padding-bottom:10%;
+  line-height:1.6em;
+  height:85vh;
 
  }  
 
+  #app:hover {
+    padding: 26% 2%;
+  }
 
 #coworkingBody  .coworkingAbout {
   background-position: center center;
@@ -1872,10 +1942,10 @@ svg {
  }
 
 #coworkingBody .coworkingAbout p {
-  width: 95%;
-  font-size:1.5em;
+  width: 97%;
+  font-size:1.4em;
   line-height:2em;
-  padding-top:110%;
+  padding-top:90%;
 }
 #aboutImage {
   display:none;

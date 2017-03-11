@@ -145,9 +145,9 @@ $(".arrow-right,.arrow-down").on("click", function (){
         });
 
 //disable zoom on coworking section background image 
-$('#coworkingBody .coworkingAbout').bind('touchend', function(e) {
-  e.preventDefault();
-})
+// $('#coworkingBody .coworkingAbout').bind('touchend', function(e) {
+//   e.preventDefault();
+// })
 
 
 
