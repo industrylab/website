@@ -2,35 +2,51 @@ $(document).ready(function(){
 
 //** HOME **//
 
+$(window).bind("load", function() {
 
   setTimeout(function(){
     $.scrollTo("#containerCoworking", 1000);
     $("svg").fadeOut(1000);
-  }, 1400);
+  }, 1200);
 
   setTimeout(function(){
     $("svg").fadeIn(1000);
   }, 2500);
 
-// ** HOME IMG CAROUSEL ** //
-
-$('.aboutCarousel').slick({
-  slidesToShow: 1,
-  autoplay: true,
-  autoplaySpeed: 2500,
-  fade:true,
-  // vertical:true,
-  // centerMode:true,
-  arrows:true,
-  infinite:true
 });
-
-
-// ** HOME IMG LIGHTBOX ** //
 
 
 
 //** NAV **//
+
+//horizontal nav appears on scroll
+ $(window).scroll(function(){                          
+            if ($(this).scrollTop() > 500) {
+                $('.horizontalNav').fadeIn(500);
+            } else {
+                $('.horizontalNav').fadeOut(500);
+            }
+        });
+
+
+//drop down hidden nav on menu icon click
+$(".condensedNav").on("click", function () {
+  $("nav").toggleClass("dropNav, hiddenNav");
+});
+
+ //mobile nav
+ $('.js-toggle-menu').click(function(e){
+  e.preventDefault();
+  $('#mobileNav').slideToggle();
+  $(this).toggleClass('open');
+});
+
+
+$("#mobileNav a").on("click", function() {
+      $("#mobileNav").slideToggle();
+      $("#mobileNav").removeClass("open");
+});
+
 
 //contact
 $("#homeContactLink, #navContact, #mobileNavContact").on("click", function () {
@@ -48,19 +64,6 @@ $("#homeContactLink, #navContact, #mobileNavContact").on("click", function () {
          });
     });
 
-
- //mobile nav
- $('.js-toggle-menu').click(function(e){
-  e.preventDefault();
-  $('#mobileNav').slideToggle();
-  $(this).toggleClass('open');
-});
-
-
-$("#mobileNav a").on("click", function() {
-      $("#mobileNav").slideToggle();
-      $("#mobileNav").removeClass("open");
-});
 
 //events
 $("#underlineEvents, #navEvents, #mobileNavEvents").on("click", function () {
@@ -112,29 +115,10 @@ $("#navAbout, #mobileNavAbout").on("click", function () {
          });
     });
 
-//horizontal nav appears on scroll
 
-
- $(window).scroll(function(){                          
-            if ($(this).scrollTop() > 500) {
-                $('.horizontalNav').fadeIn(500);
-            } else {
-                $('.horizontalNav').fadeOut(500);
-            }
-        });
-
-
-
-
-//drop down hidden nav on menu icon click
-$(".condensedNav").on("click", function () {
-  $("nav").toggleClass("dropNav, hiddenNav");
-});
 
 
 //** PAGES **//
-
-
 
 
 //arrow drop-down 
@@ -160,29 +144,10 @@ $(".arrow-right,.arrow-down").on("click", function (){
             }
         });
 
-
-
-//reveal photos on click
-
-$("#industryLab").on("click", function() {
-  $(".coworkingImage").removeClass("coworkingImageClick")
-  $("#spaceImg").toggleClass("coworkingImageClick");
-});
-
-$("#desk").on("click", function() {
-  $(".coworkingImage").removeClass("coworkingImageClick")
-  $("#deskImg").toggleClass("coworkingImageClick");
-});
-
-$("#conference").on("click", function() {
-  $(".coworkingImage").removeClass("coworkingImageClick")
-  $("#confImg").toggleClass("coworkingImageClick");
-});
-
-$("#event").on("click", function() {
-  $(".coworkingImage").removeClass("coworkingImageClick")
-  $("#eventImg").toggleClass("coworkingImageClick");
-});
+//disable zoom on coworking section background image 
+$('#coworkingBody .coworkingAbout').bind('touchend', function(e) {
+  e.preventDefault();
+})
 
 
 
