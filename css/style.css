@@ -517,12 +517,12 @@ transition: all .05s ease;
   padding: 2%;
   font-size:2em;
   letter-spacing:.2em;
-  transition: all .3s ease;
+  transition: all .15s ease;
 }
 
 #app:hover {
   background-color:rgb(81,65,255);
-  transition:all .3s ease;
+  transition:all .15s ease;
   border-radius:50%;
   padding:8.5% 2%;
 }
@@ -548,14 +548,7 @@ transition: all .05s ease;
   background:rgba(0,0,255,.6);
   color:white;
   padding:1.5%;
-  transition:all .3s ease;
 }
-
-/*#homeContactLink:hover {
-  transition:all .3s ease;
-  border-radius:50%;
-  padding:14% 2%;
-}*/
 
 #space {
   width:56%;
@@ -1683,7 +1676,7 @@ svg {
 }
 
  #coworkingBody .coworkingAbout #mobileCoworkingSectionEntryTwo{
-    padding:15% 0;
+    padding:24% 0;
     border-bottom:5px dashed blue;
   }
 
@@ -2133,7 +2126,7 @@ svg {
   {
 
     .coworkingAbout #aboutSectionEntry p {
-      font-size: 3em;
+      font-size: 3.2em;
       padding-top:10%;
       width:100%;
     }
@@ -2182,7 +2175,7 @@ svg {
     }
 
     .coworkingAbout #aboutSectionEntry p {
-      font-size: 4.2em;
+      font-size: 4.3em;
       padding-top:10%;
       width:100%;
     }
