@@ -859,88 +859,241 @@ footer h4{
 /* MEDIA QUERIES               
 /*******************************************/
 
-@media(max-width:2400px) and (min-width:1901px) {
+@media(max-width:2400px) and (min-width: 1899px){
+
+  .horizontalNav li {
+    font-size:1.8em;
+  }
 
   #mobileCoworkingSectionEntryTwo {
     display:none;
   }
    .coworkingAbout #aboutSectionEntry p {
-    font-size:3.5em;
+    font-size:3.7em;
   }
   
    #coworkingBody p{
     width:95%;
     font-size:2.3em;
-    padding-top:39%
+    padding-top:30%
   }
+
   #coworkingBody  .coworkingAbout {
     height:100vh
   }
+
+  #containerEvents h2 {
+    font-size: 1.4em;
+  }
+
+  #containerEvents h3, .eventListing p {
+    font-size: 2.4em;
+  }
+
+  .eventListing {
+    height:440px;
+  }
+
+  #form input {
+    height:90px;
+  }
 }
-@media(max-width:1900px) and (min-width:1600px) {
 
-    #mobileCoworkingSectionEntryTwo {
-    display:none;
-  }
-    .coworkingAbout #aboutSectionEntry p {
-    font-size:3.3em;
-  }
+@media(max-width:1900px) and (min-width: 1600px){
 
-   #coworkingBody p{
-    width:95%;
-    font-size:2em;
-    padding-top:44%
+  .horizontalNav li {
+    font-size: 1.6em;
   }
 
     #coworkingBody  .coworkingAbout {
     height:100vh
   }
+
+ 
+    .coworkingAbout #aboutSectionEntry p {
+    font-size:3.3em;
+  }
+
+   #coworkingBody p{
+    font-size:2em;
+    padding-top:34%;
+     width:95%;
+  }
+
+    #mobileCoworkingSectionEntryTwo {
+    display:none;
+  }
+
+   #containerEvents h2 {
+    font-size: 1.4em;
+  }
+
+  #containerEvents h3, .eventListing p {
+    font-size: 2.4em;
+  }
+
+  .eventListing {
+    height:440px;
+  }
+
+    #form input {
+    height:80px;
+  }
+
 }
 
 @media(max-width:1599px) and (min-width:1450px) {
 
-    #mobileCoworkingSectionEntryTwo {
-    display:none;
+  .horizontalNav li {
+    font-size: 1.4em;
   }
-    .coworkingAbout #aboutSectionEntry p {
+
+
+    #coworkingBody  .coworkingAbout {
+    height:100vh
+  }
+
+  .coworkingAbout #aboutSectionEntry p {
     font-size:3.2em;
   }
 
    #coworkingBody p{
-    width:95%;
     font-size:2em;
-    padding-top:50%
+    padding-top:40%
+     width:95%;
   }
-}
 
-@media(max-width:1449px) and (min-width:1300px) {
-
-    #mobileCoworkingSectionEntryTwo {
+     #mobileCoworkingSectionEntryTwo {
     display:none;
   }
+
+
+  #form input {
+    height:75px;
+  }
+
+  .eventListing p {
+    font-size:2.1em;
+  }
+
+}
+
+
+@media (max-width:1449px) and (min-height: 800px) {
+  .coworkingAbout #aboutSectionEntry p, #aboutImage {
+    height:60vh;
+  }
+
+  .coworkingAbout #aboutSectionEntry p {
+    font-size:2.6em;
+  }
+
+  #aboutImage {
+    width:45%;
+  }
+
+}
+
+
+
+
+
+
+@media(max-width:1449px) and (min-width: 1300px){
+
+  .horizontalNav li {
+    font-size: 1.4em;
+  }
+
+#coworkingBody  .coworkingAbout {
+    height:100vh
+  }
+
+  .coworkingAbout #aboutSectionEntry p, #aboutImage {
+    height:75vh;
+  }
     .coworkingAbout #aboutSectionEntry p {
-    font-size:2.8em;
+    font-size:3.1em;
   }
 
      #coworkingBody p{
-    width:95%;
-    font-size:1.7em;
-    padding-top:53%
+    font-size:1.8em;
+    padding-top:48%
+     width:95%;
+  }
+
+  #mobileCoworkingSectionEntryTwo {
+    display:none;
+  }
+
+  .containerEvents h2 {
+    font-size:1.2em;
+  }
+
+    .eventListing p {
+    font-size:1.9em;
+  }
+
+   #form input {
+    height:75px;
   }
 }
 
+
+
 @media(max-width:1299px) and (min-width:1151px) {
 
-    #mobileCoworkingSectionEntryTwo {
-    display:none;
+
+ .horizontalNav li {
+    font-size: 1.4em;
   }
+
+#coworkingBody  .coworkingAbout {
+    height:100vh
+  }
+
     .coworkingAbout #aboutSectionEntry p {
     font-size:2.4em;
     line-height:1.8em;
   }
 
   .coworkingAbout p {
+     font-size:1.8em;
     padding-top:31%;
+    width:95%;
+  }
+
+
+
+
+    .containerEvents h2 {
+    font-size:.89em;
+  }
+
+  .containerEvents h3 {
+    font-size:2em;
+  }
+
+    .eventListing p {
+    font-size:1.8em;
+  }
+
+  #form input {
+    height:75px;
+  }
+}
+
+@media (max-width:1150px) and (min-height:800px) {
+    .coworkingAbout #aboutSectionEntry p, #aboutImage {
+    height:55vh;
+  }
+
+  .coworkingAbout #aboutSectionEntry p {
+    font-size:2.4em;
+  }
+
+  #aboutImage {
+    width:45%;
   }
 }
 
@@ -2129,6 +2282,7 @@ svg {
       font-size: 3.2em;
       padding-top:10%;
       width:100%;
+      height:75vh;
     }
 
     .horizontalNav li {
@@ -2178,6 +2332,7 @@ svg {
       font-size: 4.3em;
       padding-top:10%;
       width:100%;
+      height:75vh;
     }
 
     .horizontalNav li {
