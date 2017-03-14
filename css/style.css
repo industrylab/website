@@ -585,7 +585,7 @@ transition: all .05s ease;
   margin:10% auto;
   transition: all .3s ease;
   height: 70vh;
-
+  margin-bottom:0;
 }
 
 
@@ -1059,8 +1059,8 @@ footer h4{
   }
 
     .coworkingAbout #aboutSectionEntry p {
-    font-size:2.4em;
-    line-height:1.8em;
+    font-size:2.6em;
+    line-height:1.68em;
   }
 
   .coworkingAbout p {
@@ -1220,6 +1220,7 @@ footer h4{
   }
   .coworkingAbout #aboutSectionEntry p {
     font-size:2.2em;
+    line-height:2em;
   }
 
   .coworkingAbout p{
@@ -2365,6 +2366,7 @@ svg {
 
     #coworkingBody .coworkingAbout {
       height:70vh;
+      margin-bottom:10%;
     }
 
     #coworkingBody p {

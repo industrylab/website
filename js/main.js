@@ -135,14 +135,7 @@ $(".arrow-right,.arrow-down").on("click", function (){
 
 //** COWORKING SECTION **//
 
-//coworking image fade-in
- $(window).scroll(function(){                          
-            if ($(this).scrollTop() > 900) {
-                $('.grid img').fadeIn(800);
-            } else {
-                $('.grid img').fadeOut(500);
-            }
-        });
+
 
 //disable zoom on coworking section background image 
 // $('#coworkingBody .coworkingAbout').bind('touchend', function(e) {
@@ -195,6 +188,7 @@ $("#nameColumn a").on("click", function (){
         $('#name, #email, #message').val("");
         $('#submit').val("Thank You!");
     });
+
 
 
 
