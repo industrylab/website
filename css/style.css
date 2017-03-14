@@ -74,6 +74,7 @@ a {
  text-decoration: none;
  /*   color: blue;*/
  color:white;
+ cursor: pointer;
 }
 
 li {
@@ -1084,7 +1085,7 @@ footer h4{
   }
 
   #form input {
-    height:75px;
+    height:70px;
   }
 }
 
@@ -1123,6 +1124,9 @@ footer h4{
     padding:10% 2%
   }
 
+ #form input {
+    height:65px;
+  }
 
 }
 
@@ -1174,6 +1178,10 @@ footer h4{
 
   #space {
     font-size: 1.2em;
+  }
+
+   #form input {
+    height:65px;
   }
 
 /*  .layer{
@@ -1232,6 +1240,9 @@ footer h4{
     font-size: 1.2em;
   }
 
+   #form input {
+    height:63px;
+  }
 }
 
 @media(max-width: 949px) and (min-width: 810px) {
@@ -1289,6 +1300,10 @@ footer h4{
 
   #space {
     font-size:1.1em;
+  }
+
+  #form input {
+    height:60px;
   }
 
 }
@@ -1358,6 +1373,10 @@ svg {
     width:25%;
     margin-top:-5%;
     margin-left:-7.5%;
+  }
+
+  #form input {
+    height:60px;
   }
 
 
