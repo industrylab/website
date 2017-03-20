@@ -1899,7 +1899,7 @@ svg {
 
 }
 
-@media(max-width:369px) and (min-width:319px) {
+@media(max-width:369px) and (min-width:321px) {
 .horizontalNav li {
   visibility:hidden;
 }
@@ -2038,7 +2038,7 @@ svg {
 
 }
 
-@media (max-width:318px) and (min-width: 0px) {
+@media (max-width:320px) and (min-width: 0px) {
   .horizontalNav li {
   visibility:hidden;
 }
@@ -2135,7 +2135,7 @@ svg {
 
  .eventListing {
   width:90%;
-  height:60vh;
+/*  height:60vh;*/
  }
 
 .lastEvent {
@@ -2171,7 +2171,7 @@ svg {
 }
 }
 
-@media (max-width:270px) and (min-width: 0px) {
+@media (max-width:320px) and (min-width: 0px) {
   .logoHome {
      width:65%;
     margin-top:-60%;
@@ -2182,14 +2182,14 @@ svg {
     font-size:1.6em;
   }
   .eventListing {
-    height: 90vh;
+    height: 80vh;
   }
 
   #eventsBody {
     margin-top:170%;
   }
 
-  .coworkingBody .coworkingAbout p{
+#coworkingBody .coworkingAbout p{
     padding-top:70%;
   }
 }
