@@ -2172,6 +2172,7 @@ svg {
 }
 
 @media (max-width:320px) and (min-width: 0px) {
+
   .logoHome {
      width:65%;
     margin-top:-60%;
