@@ -2098,7 +2098,7 @@ svg {
 }
 #coworkingBody .coworkingAbout p span{
   background-color: rgba(255,255,255,.9);
-  padding:2%;
+  padding:1.5%;
   border-bottom:2px dashed blue;
 }
 
@@ -2175,7 +2175,7 @@ svg {
 
   .logoHome {
      width:65%;
-    margin-top:-60%;
+    margin-top:-45%;
     margin-left:-25%;
   }
 
@@ -2183,15 +2183,15 @@ svg {
     font-size:1.6em;
   }
   .eventListing {
-    height: 80vh;
+    height: 75vh;
   }
 
   #eventsBody {
-    margin-top:170%;
+    margin-top:150%;
   }
 
 #coworkingBody .coworkingAbout p{
-    padding-top:70%;
+    padding-top:75%;
   }
 }
 
