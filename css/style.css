@@ -2159,12 +2159,12 @@ svg {
   border-bottom:none;
  }
 
-  .logoHome {
+/*  .logoHome {
     width:65%;
     margin-top:-50%;
     margin-left:-25%;
   }
-
+*/
 
 
   #form, #contactInfo {
@@ -2192,7 +2192,7 @@ svg {
 
   .logoHome {
      width:65%;
-    margin-top:-45%;
+    margin-top:-52%;
     margin-left:-25%;
   }
 
@@ -2204,7 +2204,7 @@ svg {
   }
 
   #eventsBody {
-    margin-top:150%;
+    margin-top:130%;
   }
 
 #coworkingBody .coworkingAbout p{
