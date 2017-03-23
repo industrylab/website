@@ -2419,7 +2419,7 @@ svg {
     }
 
     #coworkingBody p {
-      padding-top:85%;
+
       font-size:1.8em;
     }
 
@@ -2437,7 +2437,7 @@ svg {
   (height:768px) 
   and (width:1024px) {
     #coworkingBody p{
-      padding-top:45%;
+
     }
   }
 
@@ -2470,7 +2470,7 @@ svg {
     }
 
     #coworkingBody p {
-      padding-top:55%;
+
       font-size:1.9em;
     }
 
