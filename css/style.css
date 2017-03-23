@@ -854,8 +854,8 @@ footer h4{
    #coworkingBody p{
     width:95%;
     font-size:2.3em;
-    padding-top:30%
-  }
+    margin-top:25%;
+ }
 
   #coworkingBody  .coworkingAbout {
     height:100vh
@@ -895,7 +895,7 @@ footer h4{
 
    #coworkingBody p{
     font-size:2em;
-    padding-top:34%;
+     margin-top:30%;
      width:95%;
   }
 
@@ -943,7 +943,7 @@ footer h4{
 
    #coworkingBody p{
     font-size:2em;
-    padding-top:40%;
+     margin-top:34%;
      width:95%;
   }
 
@@ -981,7 +981,7 @@ footer h4{
   }
 
   #coworkingBody p{
-    padding-top:54%;
+  margin-top:40%;
   }
 
 }
@@ -1010,7 +1010,7 @@ footer h4{
 
      #coworkingBody p{
     font-size:1.8em;
-    padding-top:48%;
+     margin-top:40%;
      width:95%;
   }
 
@@ -1055,8 +1055,12 @@ footer h4{
 
   .coworkingAbout p {
      font-size:1.6em;
-    padding-top:28%;
+   /* padding-top:28%;*/
     width:95%;
+  }
+
+  #coworkingBody p {
+    margin-top:45%;
   }
 
 
@@ -1091,6 +1095,12 @@ footer h4{
   #aboutImage {
     width:45%;
   }
+
+   #coworkingBody p {
+    margin-top:45%;
+  }
+
+
 }
 
 @media(max-width: 1150px) and (min-width: 1030px) {
@@ -1117,6 +1127,16 @@ footer h4{
  #form input {
     height:65px;
   }
+
+}
+
+@media (max-width:1029px) and (min-height:800px) {
+
+
+   #coworkingBody p {
+    margin-top:55%;
+  }
+
 
 }
 
@@ -1175,6 +1195,16 @@ footer h4{
 
    #form input {
     height:65px;
+  }
+
+
+}
+
+@media (max-width:1029px) and (min-height:800px) {
+
+
+   #coworkingBody p {
+    margin-top:55%;
   }
 
 
@@ -1244,20 +1274,32 @@ footer h4{
   }
 }
 
+@media (max-width:989px) and (min-height:800px) {
+
+
+   #coworkingBody p {
+    margin-top:65%;
+  }
+
+
+}
+
 @media(max-width: 949px) and (min-width: 810px) {
 
     #mobileCoworkingSectionEntryTwo {
     display:none;
   }
+
   #bodyHome {
     background-size:140%;
   }
+
  svg {
     transform:scale(1.3);
     padding-top: 12%;
   }
 
-  .coworkingAbout #aboutSectionEntry p {
+.coworkingAbout #aboutSectionEntry p {
   font-size: 2.9em;
   width:95%;
   height:80vh;
@@ -1311,6 +1353,16 @@ footer h4{
 
 }
 
+@media (max-width:949px) and (min-height:800px) {
+
+
+   #coworkingBody p {
+    margin-top:65%;
+  }
+
+
+}
+
 @media(max-width: 809px) and (min-width: 705px) {
 
     #mobileCoworkingSectionEntryTwo {
@@ -1341,11 +1393,9 @@ svg {
 
  #coworkingBody p{
     width:95%;
+      margin-top:40%;
   }
 
-    #coworkingBody p {
-  margin-top:40%;
-}
 
     #app:hover {
     padding: 12% 2%;
@@ -1383,6 +1433,16 @@ svg {
 
   #form input {
     height:60px;
+  }
+
+
+}
+
+@media (max-width:809px) and (min-height:800px) {
+
+
+   #coworkingBody p {
+    margin-top:65%;
   }
 
 
@@ -1471,6 +1531,16 @@ svg {
   }
 }
 
+@media (max-width:704px) and (min-height:800px) {
+
+
+   #coworkingBody p {
+    margin-top:75%;
+  }
+
+
+}
+
 @media(max-width: 624px) and (min-width: 557px) {
 
 
@@ -1551,6 +1621,16 @@ svg {
     text-align:right;
     padding-right:5%;
   }
+}
+
+@media (max-width:624px) and (min-height:800px) {
+
+
+   #coworkingBody p {
+    margin-top:75%;
+  }
+
+
 }
 
 
@@ -1657,6 +1737,16 @@ svg {
   float:right;
 
 }
+}
+
+@media (max-width:556px) and (min-height:800px) {
+
+
+   #coworkingBody p {
+    margin-top:90%;
+  }
+
+
 }
 
 
