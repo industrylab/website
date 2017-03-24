@@ -1057,10 +1057,10 @@ footer h4{
     width:95%;
   }
 
-  #coworkingBody p {
+ /* #coworkingBody p {
     margin-top:55vh;
   }
-
+*/
 
 
 
@@ -1098,7 +1098,7 @@ footer h4{
   }
 
  #coworkingBody p{
-    margin-top: 60vh;
+    margin-top: 55vh;
     width:95%;
   }
 
@@ -1317,7 +1317,7 @@ footer h4{
   }
 
   #coworkingBody p {
-  margin-top:45vh;
+  margin-top:43vh;
 }
 
 
@@ -1388,7 +1388,7 @@ svg {
 
  #coworkingBody p{
     width:95%;
-      margin-top:47vh;
+      margin-top:40vh;
   }
 
 
@@ -1481,7 +1481,7 @@ svg {
   }
 
      #coworkingBody p {
-  margin-top:50vh;
+  margin-top:45vh;
 }
 
       #app:hover {
@@ -1567,7 +1567,7 @@ svg {
  #coworkingBody p{
     width:95%;
     font-size:1.4em;
-    margin-top:45vh;
+    margin-top:40vh;
   }
 
   
@@ -1652,7 +1652,7 @@ svg {
   }
 
  #coworkingBody p{
-    margin-top:45vh;
+    margin-top:40vh;
     width:95%;
     font-size:1.3em;
   }
